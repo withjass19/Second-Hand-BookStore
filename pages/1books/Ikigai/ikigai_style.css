@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-color: #EDF3F4;
+}
+.empty{
+    height: 115px;
+    width: 100%;
+    display: flex;
+    /* background-color: rgb(217, 71, 71); */
+}
+main{
+    width: 100%;
+    height: 1300px;
+    /* background-color: #c6e8ee; */
+    margin: 0;
+}
+.book-container{
+    width: 80%;
+    height: 1200px;
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.book-img{
+    width: 500px;
+    height: 700px;
+    float: left;
+    margin: 0;
+    /* background-color: #76d8e9; */
+}
+.book-img img{
+    width: 370px;
+    height: 580px;
+    margin: 13%;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.ribbon1 {
+    width: 120px;
+    height: 130px;
+    overflow: hidden;
+    position: absolute;
+    
+  }
+  .ribbon1::before, .ribbon1::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    
+    border: 5px solid #2980b9;
+  }
+  .ribbon1 span {
+    position: absolute;
+    display: block;
+    width: 200px;
+    padding: 12px 0;
+    background-color: #3498db;
+    /* box-shadow: 0 5px 10px rgba(0,0,0,.1); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: #fff;
+    font: 800 14px/1 'Lato', sans-serif;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .ribbon-top-left1::before, .ribbon-top-left1::after {
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
+  .ribbon-top-left1::before {
+    top: 0;
+    right: 0;
+  }
+  .ribbon-top-left1::after {
+    bottom: 0;
+    left: 0;
+  }
+  .ribbon-top-left1 span {
+    right: -29px;
+    top: 30px;
+    transform: rotate(-48deg);
+  }
+.book-detail{
+    width: 685px;
+    height: 640px;
+    float: right;
+    margin: 5% 0 0 0;
+    /* background-color: aqua; */
+}
+.book-title{
+    margin: 0% 0 0 0;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    /* background-color: bisque; */
+    display: block;
+}
+.author{
+    /* background: rgb(202, 115, 115); */
+    font-size: 16px;
+    font-weight: 500;
+}
+.author-name{
+    font-weight: normal;
+    color: #7F7F7F;
+}
+.stars{
+    display: block;
+    margin-top: 2%;
+}
+.checked {
+    color: orange;
+}
+.price{
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 0%;
+}
+.discription{
+    display: block;
+    margin-top: 2%;
+    letter-spacing: 1.2px;
+    font-size: 15px;
+    margin-right: 10%;
+    color: #7F7F7F;
+}
+.qty-input{
+    margin: 5%;
+    background-color: #FFFFFF;
+    float: left;
+    padding: 5px;
+}
+.minus{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 22px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.plus{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 22px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.inputbox{
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    padding: 7px;
+    border: none;
+    background-color: #FFFFFF;
+    pointer-events: none;
+}
+.add_to_card_btn{
+    background-color: #000;
+    color: #FFFFFF;
+    width: 250px;
+    height: 55px;
+    margin-top: 5%;
+    font-size: 20px;
+}
+.btn{
+    display: block;
+    /* background: #000; */
+    width: 100%;
+    height: 130px;
+}
+.add_wishlist{
+    width: 30%;
+    height: 50px;
+    /* background-color: #2980b9; */
+    display: flex;
+    float: left;
+}
+.add_wishlist img{
+    width: 30px;
+    height: 30px;
+    /* margin-left: 10px; */
+}
+.add_wishlist-text{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.share{
+    width: 70%;
+    height: 50px;
+    /* background-color: #83a9c3; */
+    display: flex;
+    float: right;
+}
+.share img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.share-text{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.tag-categories{
+    font-size: 16px;
+    line-height: 25px;
+}
+.categories{
+    display: block;
+}
+.tag{
+    display: block;
+}
+.categories-head{
+    font-weight: 500;
+    color: #7F7F7F;
+}
+.tag-head{
+    font-weight: 500;
+    color: #7F7F7F;
+}
+.Book-about{
+    /* background-color: #61a7b4; */
+    width: 500px;
+    height: 300px;
+    float: left;
+}
+.book_infomation{
+    /* background-color: #2980b9; */
+    width: 450px;
+    height: 250px;
+    margin: 30px;
+}
+.book_infomation_head p{
+    /* background-color: rgb(255, 183, 183); */
+    font-size: 30px;
+    padding: 10px 10px 10px 0;
+    font-weight: 600;
+    border-bottom: 1.5px solid black;
+}
+.book_infomation_info{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+}
+.row1{
+    background-color: #f5f5f5;
+    display: flex;
+    border-bottom: 1.6px dotted black;
+}
+.row2{
+    display: flex;
+    border-bottom: 1.5px solid black;
+}
+.row3{
+    background-color: #f5f5f5;
+    display: flex;
+    border-bottom: 1.6px dotted black;
+}
+.row4{
+    display: flex;
+    border-bottom: 1.5px solid black;
+}
+.row5{
+    background-color: #f5f5f5;
+    display: flex;
+    border-bottom: 1.6px dotted black;
+}
+.row6{
+    /* background-color: #f5f5f5; */
+    display: flex;
+    border-bottom: 1.5px solid black;
+}
+.col1{
+    font-weight: 500;
+}
+.col2{
+    margin-left: 100px;
+}
+.col3{
+    margin-left: 126px;
+}
+.col4{
+    margin-left: 104px;
+}
+.col6{
+    margin-left: 104px;
+}
+.col7{
+    margin-left: 130px;
+}
+.about-the-author{
+    width: 665px;
+    height: 340px;
+    float: right;
+    margin: 2% 0 0 0;
+    /* background-color: aqua; */
+}
+.about-the-author_title{
+    color: #000;
+    font-size: 30px;
+    padding: 10px 10px 10px 0;
+    font-weight: 600;
+    display: block;
+    line-height: 60px;
+}
+.hector-garcia-img{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-right: 8%;
+    border-radius: 100%;
+    padding: 40px;
+    margin-top: -10%
+}
+.about_author{
+    margin-left: 5%;
+    letter-spacing: 1px;
+    font-size: 12px;
+    word-spacing: 2px;
+}

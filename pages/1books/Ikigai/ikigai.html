@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/1000X1000px-removebg.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="./ikigai_style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css">
+    <title>Second Hand Books</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo"></div>
+            <div class="nav-items">
+                <a href="../../../index.html" class="nav-link home">Home</a>
+                <div class="dropdown-menu">
+                    <a href="#" class="nav-link">Categories</a>
+                    <div class="menu-content">
+                        <a class="links-hidden" href="./pages/Categories/All Categories/all_categories.html">All Link</a>
+                        <a class="links-hidden" href="#">Link 1</a>
+                        <a class="links-hidden" href="#">Link 1</a>
+                        <a class="links-hidden" href="#">Link 1</a>
+                        <a class="links-hidden" href="#">Link 1</a>
+                        <a class="links-hidden" href="#">Link 1</a><a class="links-hidden" href="#">Link 1</a>
+                        <a class="links-hidden" href="#">Link 1</a>
+                        <a class="links-hidden" href="#">Link 1</a>
+                    </div>
+                </div>
+                <a href="#" class="nav-link">Shop</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </div>
+            <div class="activities">
+                <a href="./pages/SignUp-In_page.html">
+                    <div class="activitie profile"></div>
+                </a>
+                <div class="activitie card"></div>
+                <div class="activitie wish-list"></div>
+            </div>
+        </nav>
+    </header>
+    <div class="empty"></div>
+    <main>
+        <div class="book-container">
+            <div class="book-img">
+                <div class="ribbon1 ribbon-top-left1">
+                    <span>Old Book</span>
+                </div>
+                <img src="../../../img/ikigai-1.jpg" alt="" srcset="">
+            </div>
+            <div class="book-detail">
+                <span class="book-title">Ikigai: The Japanese secret to a <br> long and happy life</span><br>
+                <span class="author">By (Author) <span class="author-name">Héctor García, Francesc Miralles</span></span>
+                <span class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </span>
+                <span class="price" style="color: black;">$14.30</span>
+                <span class="discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat.</span>
+                <div class="btn">
+                    <div class="qty-input">
+                        <button onclick="decrement('0')" class="minus" id="minus">-</button>
+                        <input class="inputbox" id=demoInput type=text min=0 max=100 placeholder="0">
+                        <button class="plus" id="plus" onclick="increment('1')">+</button>
+                    </div>
+                    <button class="add_to_card_btn">Add to card</button>
+                </div>
+                <span class="add_wishlist">
+                    <img src="../../../img/icons8-favorite-96.png" alt="">
+                    <p class="add_wishlist-text">Add to wishlist</p>
+                </span>
+                <span class="share">
+                    <img src="../../../img/share.png" alt="" srcset="">
+                    <p class="share-text">Share</p>
+                </span>
+                <span class="tag-categories">
+                    <span class="categories">
+                        <span class="categories-head">Categorie: </span>
+                        <span class="categories-types">Self-help</span>
+                    </span>
+                    <span class="tag">
+                        <span class="tag-head">Tag: </span>
+                        <span class="tag-types">Habbite</span>
+                    </span>
+                </span>
+            </div>
+            <hr>
+            <div class="Book-about">
+                <div class="book_infomation">
+                    <div class="book_infomation_head">
+                        <p>Book Details</p>
+                    </div>
+                    <div class="book_infomation_info">
+                        <div class="row1">
+                            <p class="col1">Pages</p>
+                            <p class="col2 col3">208 Pages</p>
+                        </div>
+                        <div class="row2">
+                            <p class="col1">Publisher</p>
+                            <p class="col2 col4">Random House UK</p>
+                        </div>
+                        <div class="row3">
+                            <p class="col1">Language</p>
+                            <p class="col2 col5">English</p>
+                        </div>
+                        <div class="row4">
+                            <p class="col1">Released</p>
+                            <p class="col2 col6">27 September 2017</p>
+                        </div>
+                        <div class="row5">
+                            <p class="col1">ISBN</p>
+                            <p class="col2 col7">178633089X</p>
+                        </div>
+                        <div class="row6">
+                            <p class="col1">Book-Cover</p>
+                            <p class="col2 col8">Hard</p>
+                        </div>
+                        <!-- <div class="about-the-author"></div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="about-the-author">
+                <span class="about-the-author_title">About the auther</span>
+                <img src="../../../img/hector-garcia.jpg" alt="" class="hector-garcia-img">
+                <span class="about_author">Héctor García (Author) Héctor García is a citizen of Japan, where he has lived for over a decade, and of Spain, where he was born. He is the author of several books about Japanese culture, including two worldwide bestsellers, A Geek in Japan and Ikigai. A former software engineer, he worked at CERN in Switzerland before moving to Japan. Francesc Miralles (Author) Francesc Miralles is the award-winning and internationally bestselling author of books about how to live well, together with the novels Love in Small Letters and Wabi-Sabi. Alongside Héctor García, he <br> was welcomed to Okinawa in Japan, where the inhabitants live for longer than in any other <br> place in the world. There they had the chance to interview more than a hundred villagers about <br> their philosophy for a long and happy life.</span>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-items">
+            <div class="part part-1">
+                <img src="../../../img/footer-logo-removebg-preview.png" alt="" srcset="">
+            </div>
+            <div class="part part-2">
+                <p>Quick Links</p>
+                <a href="">Home</a>
+                <br>
+                <a href="">Categories</a>
+                <br>
+                <a href="">Shop</a>
+                <br>
+                <a href="">About</a>
+            </div>
+            <div class="part part-3">
+                <p>Policy</p>
+                <a href="">Return Police</a>
+                <br>
+                <a href="">Terms Of Use</a>
+                <br>
+                <a href="">Security</a>
+                <br>
+                <a href="">Privacy</a>
+            </div>
+            <div class="part part-4">
+                <p>Categories</p>
+                <a href="">Action</a>
+                <br>
+                <a href="">Sci-fi</a>
+                <br>
+                <a href="">Drama</a>
+                <br>
+                <a href="">Kids</a>
+                <br>
+                <a href="">Biography</a>
+                <br>
+                <a href="">Self-Help</a>
+                <br>
+                <a href="">Motivation</a>
+            </div>
+        </div>
+        <hr color="white">
+        <div class="footer-bottem">
+            <p>©2023 <span>MotubookWala.com</span>. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html> 
